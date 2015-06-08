@@ -1,6 +1,6 @@
 {
   "name": "gulp-graph",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "devDependencies": {
     "chai": "^1.10.0",
@@ -16,5 +16,9 @@
     "test": "mocha test.js"
   },
   "license": "GPL-3.0",
-  "licence": "GPL-3.0"
+  "licence": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avengerpenguin/gulp-graph.git"
+  }
 }

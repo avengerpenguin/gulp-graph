@@ -1,4 +1,4 @@
-# Gulp Graph
+# gulp-graph
 
 Creates gulp tasks that use Graphviz to generate a dependency graph. It's hardcoded to drop a `gulp.png` and a
 `gulp.dot` locally when you run it, but it could be made more configurable and flexible later.
