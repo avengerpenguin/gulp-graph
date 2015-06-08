@@ -14,5 +14,7 @@
   "scripts": {
     "pretest": "jshint index.js test.js",
     "test": "mocha test.js"
-  }
+  },
+  "license": "GPL-3.0",
+  "licence": "GPL-3.0"
 }
