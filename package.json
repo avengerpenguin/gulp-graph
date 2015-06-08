@@ -1,6 +1,6 @@
 {
   "name": "gulp-graph",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "devDependencies": {
     "chai": "^1.10.0",
