@@ -10,13 +10,17 @@ module.exports = function(gulp) {
 
         var tree = require('gulp/lib/taskTree')(this.tasks);
 
-        tree.nodes.forEach(function (node) {
+        var nodes = tree.nodes.filter(function(node){
+            return node.label !== 'graph' && node.label !== 'graphGenerate';
+        });
+
+        nodes.forEach(function (node) {
             dot += '"' + node.label + '";\n';
         });
 
         dot += '\n';
 
-        tree.nodes.forEach(function (node) {
+        nodes.forEach(function (node) {
             node.nodes.forEach(function (dep) {
                 dot += '"' + dep + '" -> "' + node.label + '";\n';
             });
