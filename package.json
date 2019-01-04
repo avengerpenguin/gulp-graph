@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "gulp": "^3.9.0",
-    "gulp-shell": "^0.4.2"
+    "gulp-shell": "^0.6.4"
   },
   "scripts": {
     "pretest": "jshint index.js test.js",
