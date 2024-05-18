@@ -1,0 +1,4 @@
+[nitpick.styles]
+include = [
+    "py://nitpick/resources/python/pre-commit-hooks",
+]
