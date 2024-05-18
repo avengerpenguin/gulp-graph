@@ -30,14 +30,8 @@ repos:
     rev: v1.10.0
     hooks:
       - id: mypy
-        additional_dependencies:
-          [
-            types-requests,
-            types-PyYAML,
-            types-Flask,
-            types-Werkzeug,
-            types-Markdown,
-          ]
+        additional_dependencies: [types-requests, types-PyYAML, types-Flask, types-Werkzeug,
+          types-Markdown]
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.15.2
     hooks:
@@ -57,4 +51,4 @@ repos:
       - id: python-no-log-warn
       - id: rst-backticks
 default_language_version:
-  python: python3.12
+  python: python3.11
